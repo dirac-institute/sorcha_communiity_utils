@@ -29,10 +29,10 @@ class LSSTCometActivity(AbstractCometaryActivity):
     ) -> None:
         super().__init__(required_column_names)
 
-    def checkPhysical(self, df : pd.DataFrame):
+    def checkPhysical(self, df: pd.DataFrame):
         if (df.k > 0).any():
             raise ValueError("Check complex parameters file. k > 0 is not a physical value")
-        
+
     def compute(
         self,
         df: pd.DataFrame,
@@ -101,14 +101,15 @@ class LSSTCometActivity(AbstractCometaryActivity):
         """
         return "lsst_comet"
 
-    def maxBrightness(self,
+    def maxBrightness(
+        self,
         df: pd.DataFrame,
         observing_filters: List[str],
         q: List[float],
         delta: List[float],
         alpha: List[float],
-        ):
-        
+    ):
+
         self._validate_column_names(df)
         self.checkPhysical(df)
 

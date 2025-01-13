@@ -54,5 +54,5 @@ class SinusoidalLightCurve(AbstractLightCurve):
         """
         return "sinusoidal"
 
-    def maxBrightness(self, df : pd.DataFrame) -> float:
-        return -df["LCA"] #note this - because magnitudes are weird
+    def maxBrightness(self, df: pd.DataFrame) -> float:
+        return -df["LCA"]  # note this - because magnitudes are weird
