@@ -11,7 +11,7 @@
 
 This is a repository for community generated light curve and cometary activity
 functions for the [Sorcha](https://github.com/dirac-institute/sorcha) Solar
-System survey simulator software package.Further details can be found in the
+System survey simulator software package. Further details can be found in the
 [Sorcha documentation](https://sorcha.readthedocs.io). 
 
 ##Sorcha Team
