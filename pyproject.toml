@@ -15,7 +15,7 @@ classifiers = [
 dynamic = ["version"]
 dependencies = [
     "pandas",
-    "numpy2.0",
+    "numpy",
     "sorcha",
     "astropy",
     "scipy",
