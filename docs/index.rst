@@ -8,6 +8,7 @@ model changes to the magnitude of objects in the solar system simulation.
    :hidden:
 
    Home page <self>
+   Installation <installation> 
    Usage <usage>
    Community Modules <community_modules>
    Notebooks <notebooks>
